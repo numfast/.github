@@ -4,7 +4,7 @@ Thanks for your interest! We welcome contributions of all kinds.
 
 ## How to contribute
 
-1. **Fork** the relevant repository (NoFast, Builder, etc.)
+1. **Fork** the relevant repository (NumFast, Builder, etc.)
 2. **Create a branch** — `git checkout -b feature/your-feature`
 3. **Write code** following the project conventions:
    - GPU-first: all numerical operations run on GPU by default
