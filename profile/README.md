@@ -4,16 +4,15 @@
 
 NumFast is a family of open-source libraries for high-performance numerical computing:
 
-- **[NumFast](https://github.com/numfast/numfast)** — Python framework for GPU numerical computing on CuPy. Same code runs on CPU (NumPy) when CUDA is unavailable.
+- **[NumFast](https://github.com/numfast/numfast)** — GPU-first numerical framework for Python. WebGPU backend for browsers via `@numfast/numfast` on npm.
 - **[Builder](https://github.com/numfast/framework-builder)** — Lightweight meta-framework for assembling NumFast applications from manifests and extensions.
-- **[NumFast.js](https://github.com/numfast/numfast-js)** (coming soon) — Browser-based GPU computing via WebGPU with transparent CPU fallback.
 
 ## Why NumFast?
 
 - **GPU-native design** — not an afterthought. Every operation runs on GPU by default.
-- **Write once, run anywhere** — single codebase for CUDA (Python), CPU (NumPy), and WebGPU (browser).
-- **Minimal dependencies** — NumFast depends only on CuPy; Builder has zero runtime dependencies.
-- **Simple architecture** — Understandable in 2 minutes. No deep abstraction chains.
+- **Python + JavaScript parity** — same API, same deterministic random (PCG-u32), bit-exact results.
+- **Minimal dependencies** — NumFast depends only on numpy + wgpu; Builder has zero runtime dependencies.
+- **Honest performance** — measured numbers only, published in [docs/PERFORMANCE.md](https://github.com/numfast/numfast/blob/main/docs/PERFORMANCE.md).
 
 ## License
 
